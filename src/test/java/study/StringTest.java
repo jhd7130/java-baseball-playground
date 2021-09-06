@@ -61,7 +61,7 @@ public class StringTest {
             ch.charAt(index);
         }).isInstanceOf(IndexOutOfBoundsException.class)
                 .hasStackTraceContaining("Index : %d, Size: %d",ch.length()-1 ,ch.length()-1);
-
+    //설명추가
 
 
     }
